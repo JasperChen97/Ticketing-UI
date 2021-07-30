@@ -1,0 +1,40 @@
+{
+  "tickets": [
+    {
+      "id": 0,
+      "name": "Ticket1",
+      "price": 99.99,
+      "category": "rock",
+      "QTY": 7
+    },
+    {
+      "id": 1,
+      "name": "Ticket2",
+      "price": 99.99,
+      "category": "electric",
+      "QTY": 7
+    },
+    {
+      "id": 2,
+      "name": "Ticket3",
+      "price": 99.99,
+      "category": "jazz",
+      "QTY": 7
+    },
+    {
+      "id": 3,
+      "name": "Ticket4",
+      "price": 99.99,
+      "category": "classical",
+      "QTY": 7
+    },
+    {
+      "id": 4,
+      "name": "Ticket5",
+      "price": 99.99,
+      "category": "rock",
+      "QTY": 7
+    }
+  ]
+}
+
