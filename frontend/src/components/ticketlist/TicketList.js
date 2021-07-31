@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { TicketListWrap, TicketWrap } from './TicketListStyle.js';
 
 function TicketList({ ticketListings, switchTicket}) {
@@ -15,8 +15,11 @@ function TicketList({ ticketListings, switchTicket}) {
 
 const TicketItem = ({ ticket, index, switchTicket }) => {
   return (
-    <TicketWrap>
-      {ticket.name}
+    <TicketWrap onClick={() => {switchTicket(ticket.id)}}>
+      <img className='thumbnail' src={ticket.img_url} alt='singing'/>
+      <div>
+        {ticket.name}
+      </div>
     </TicketWrap>
   )
 }

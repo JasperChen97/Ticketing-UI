@@ -2,38 +2,63 @@
   "tickets": [
     {
       "id": 0,
-      "name": "Ticket1",
+      "name": "Post Malone Concert",
+      "img_url": "https://365thingsinhouston.com/wp-content/uploads/2020/02/top-concert-events-this-month-march-2020-2.jpg",
       "price": 99.99,
-      "category": "rock",
-      "QTY": 7
+      "category": "Hip Hop",
+      "availability": {
+        "Vancouver, 11/24": [12, 45, 12, 76],
+        "Toronto, 12/13": [16, 425, 72, 66],
+        "Los Angeles, 12/16": [2, 15, 52, 95]
+      }
     },
     {
       "id": 1,
-      "name": "Ticket2",
+      "name": "Beyonce Concert",
+      "img_url": "https://images.squarespace-cdn.com/content/v1/51072ed0e4b01053eeea0171/1527908198253-RV09BRCZ31W1HUVQ1T9H/BeyonceExtram.jpg?format=1000w",
       "price": 99.99,
-      "category": "electric",
-      "QTY": 7
+      "category": "Pop",
+      "availability": {
+        "Taipei, 07/14": [56, 87, 102, 301],
+        "Mumbai, 09/13": [21, 27, 170, 231],
+        "Los Angeles, 10/15": [15, 43, 87, 96]
+      }
     },
     {
       "id": 2,
-      "name": "Ticket3",
+      "name": "Luke Bryan",
+      "img_url": "https://www.rollingstone.com/wp-content/uploads/2021/04/lukebryantour.jpg?resize=1800,1200&w=1800",
       "price": 99.99,
-      "category": "jazz",
-      "QTY": 7
+      "category": "Country",
+      "availability": {
+        "Chicago, 01/24": [27, 25, 99, 76],
+        "Houston, 10/03": [34, 52, 182, 776],
+        "San Diego, 11/16": [1, 21, 412, 834]
+      }
     },
     {
       "id": 3,
-      "name": "Ticket4",
+      "name": "Justin Bieber",
+      "img_url": "https://assets.teenvogue.com/photos/58af1d67ed66e75054edf99d/16:9/w_2560%2Cc_limit/GettyImages-630752492.jpg",
       "price": 99.99,
-      "category": "classical",
-      "QTY": 7
+      "category": "Pop",
+      "availability": {
+        "New Jersey, 07/07": [12, 45, 12, 76],
+        "Charleston, 09/13": [12, 45, 12, 76],
+        "San Francisco, 10/03": [12, 45, 12, 76]
+      }
     },
     {
       "id": 4,
-      "name": "Ticket5",
+      "name": "Porter Robinson",
+      "img_url": "https://s1.ticketm.net/dam/a/5d2/21153fba-5ca0-4b4d-b90f-2d64513815d2_1432701_TABLET_LANDSCAPE_LARGE_16_9.jpg",
       "price": 99.99,
-      "category": "rock",
-      "QTY": 7
+      "category": "Electric",
+      "availability": {
+        "London, 01/14": [12, 45, 12, 76],
+        "Paris, 05/29": [2, 75, 34, 196],
+        "Tokyo, 12/04": [7, 15, 32, 68]
+      }
     }
   ]
 }

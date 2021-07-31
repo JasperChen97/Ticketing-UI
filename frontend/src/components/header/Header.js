@@ -1,11 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { HeaderWrap } from './HeaderStyle.js';
 
-function Header() {
+function Header({ queryChange, query, searchTickets, showAllTickets }) {
 
   return (
     <HeaderWrap>
-      Search bar and logo
+      <input type = 'text' className='textBox' value = {query} onChange={queryChange}/>
+      <button onClick={()=> {searchTickets()}}>Search</button>
+      <button onClick={()=> {showAllTickets()}}>Show All Tickets</button>
     </HeaderWrap>
   );
 }
