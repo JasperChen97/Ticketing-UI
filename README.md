@@ -1,6 +1,6 @@
-<h1 align="center"><Ticketing-UI></h1>
+# Ticketing-UI
 
-<p align="center"><Proof of concept UI for a ticketing application. The UI allows the users to browse through the available tickets, choose the time and location of the event, and select the available seatings.></p>
+Proof of concept UI for a ticketing application. The UI allows the users to browse through the available tickets, choose the time and location of the event, and select the available seatings.
 
 ## Available Commands
 
