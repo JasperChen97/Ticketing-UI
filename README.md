@@ -22,7 +22,7 @@ The app is built using `create-react-app` so this command Runs the app in Develo
 
 **Jasper Chen**
 
-- [Profile](https://https://github.com/JasperChen97 "Jasper Chen")
+- [Profile](https://github.com/JasperChen97 "Jasper Chen")
 - [Email](mailto:jasperchen19@gmail.com?subject=Hi "Hi!")
 - [Website](https://www.jasperchen.dev/ "Welcome")
 
