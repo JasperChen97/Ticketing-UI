@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { HeaderWrap } from './HeaderStyle.js';
 
 function Header({ queryChange, query, searchTickets, showAllTickets }) {
-
   return (
     <HeaderWrap>
       <input type = 'text' className='textBox' value = {query} onChange={queryChange}/>

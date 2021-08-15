@@ -2,13 +2,17 @@ import React, { useState } from 'react';
 import { ContentWrap } from './TicketContentStyle.js';
 
 function TicketContent({ ticketInfo }) {
-  let [availableSeats, setAvailableSeats] = useState([])
+  let [availableSeats, setAvailableSeats] = useState([]);
   let availabilityInfo = ticketInfo.availability;
   let eventTimeAndLocation = Object.keys(availabilityInfo);
 
   const changeSelectedTimeAndLocation = () => {
     var e = document.getElementById("eventLocationInfo")
-    setAvailableSeats(availabilityInfo[e.value])
+    if (e.value === 'Select One') {
+      setAvailableSeats([]);
+    } else {
+      setAvailableSeats(availabilityInfo[e.value]);
+    }
   }
 
 
