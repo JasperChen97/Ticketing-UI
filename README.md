@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 ### `npm start" : "react-scripts start"`,
 
-The app is built using `create-react-app` so this command Runs the app in Development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The app is built using `create-react-app` so this command Runs the app in Development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser!
 
 
 ## Built With
