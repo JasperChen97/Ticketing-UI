@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { AppWrap, BodyWrap } from './AppStyle.js'
 import Header from './components/header/Header.js';
 import TicketContent from './components/ticketcontent/TicketContent.js';
 import TicketList from './components/ticketlist/TicketList.js';
 import Data from './tickets.json';
+const axios = require('axios');
 
 function App() {
   const inventory = Data.tickets;
@@ -36,7 +37,7 @@ function App() {
 
   const showAllTickets = () => {
     setTicketListings(inventory);
-    setTicketInfo(ticketListings[0]);
+    setTicketInfo(inventory[0]);
   }
 
   return (

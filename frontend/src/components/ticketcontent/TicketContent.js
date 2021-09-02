@@ -3,6 +3,11 @@ import { ContentWrap } from './TicketContentStyle.js';
 
 function TicketContent({ ticketInfo }) {
   let [availableSeats, setAvailableSeats] = useState([]);
+  if (!ticketInfo) {
+    return (
+      <div>Cannot find the ticket you were looking for</div>
+    )
+  }
   let availabilityInfo = ticketInfo.availability;
   let eventTimeAndLocation = Object.keys(availabilityInfo);
 
